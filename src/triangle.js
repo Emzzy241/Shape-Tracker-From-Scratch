@@ -27,13 +27,24 @@ Triangle.prototype.checkType = function () {
     return "scalene triangle";
   }
   // adding another conditional to make the 4th Test(isoceles Trianlgle) pass
-  // the way I did mine
+  // the way I did mine but there seems to be a bug there; read it well emmanuel
   // else if((this.side1 === this.side2) || (this.side2 === this.side3) && (this.side1 !== this.side3)){
   //   return "isoceles triangle";
   // }
   // the way Acedu did it and both of our ways worked
-  else if((this.side1 === this.side2) || (this.side2 === this.side3) || (this.side2 === this.side3)){
-    return "isoceles triangle";
+  // the conditional writtien below checks for isoceles and it also checks for equilateral too
+  // we need to update this code to account for both without breaking the latter
+  // else if((this.side1 === this.side2) || (this.side1 === this.side3) || (this.side2 === this.side3)){
+  //   return "isoceles triangle";
+  // }
+
+  // updating isoceles code to account for both isoceles and equilateral
+  // in updating the code of isoceles for equilateral, we know that our previous conditional for isoceles is also true for equilateral triangle, we update that condition to apply equilateral triangles instead. THen our else else statements will apply for isoceles triangles
+  else if((this.side1 === this.side2) && (this.side1 === this.side3)){
+    return "equilateral triangle";
+  }
+  else{
+    return "isoceles triangle"
   }
 
 
