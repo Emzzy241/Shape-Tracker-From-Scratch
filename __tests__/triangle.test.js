@@ -21,7 +21,18 @@ describe("Trangle", () =>{
     test("should Correctly Determine Whether Three Lengths Are Not a Triangle", ()=>{
         const notTriangle = new Triangle(3, 9, 22);
         expect(notTriangle.checkType()).toEqual("not a triangle");
-    })
+    });
+
+    // TEST 3: Should determine Whether Three Lengths Make a Scalene Triangle
+
+    test("Should determine Whether Three Lengths Make a Scalene Triangle", ()=>{
+        const scalTriangle = new Triangle(4, 5, 7);
+        expect(scalTriangle.checkType()).toEqual("scalene triangle");
+    });
+
+    // TEST 4: Should Determine Ehether Three Lengths Make An Isoceles Triangle
+    // that means two lengths(but not all three) must be equal
+    
 
 });
 
