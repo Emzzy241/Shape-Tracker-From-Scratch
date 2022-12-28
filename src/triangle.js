@@ -26,5 +26,15 @@ Triangle.prototype.checkType = function () {
   else if ((this.side1 !== this.side2) && (this.side1 !== this.side3) && (this.side2 !== this.side3)) {
     return "scalene triangle";
   }
+  // adding another conditional to make the 4th Test(isoceles Trianlgle) pass
+  // the way I did mine
+  // else if((this.side1 === this.side2) || (this.side2 === this.side3) && (this.side1 !== this.side3)){
+  //   return "isoceles triangle";
+  // }
+  // the way Acedu did it and both of our ways worked
+  else if((this.side1 === this.side2) || (this.side2 === this.side3) || (this.side2 === this.side3)){
+    return "isoceles triangle";
+  }
+
 
 }
