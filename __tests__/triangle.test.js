@@ -38,7 +38,11 @@ describe("Trangle", () =>{
     });
 
     // TEST 5: Determine whether Three Lengths Make An Equilateral Triangle
-    test("Should Determine")
+    // in equilateral triangles, all sides are equal
+    test("Should Determine Whether Three engths Make an Equilateral Triangle", ()=>{
+        const equiTriangle = new Triangle(5, 5, 5);
+        expect(equiTriangle.checkType()).toEqual("equilateral triangle");
+    });
 
 });
 
