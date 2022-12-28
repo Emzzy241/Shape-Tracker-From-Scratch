@@ -32,7 +32,13 @@ describe("Trangle", () =>{
 
     // TEST 4: Should Determine Ehether Three Lengths Make An Isoceles Triangle
     // that means two lengths(but not all three) must be equal
-    
+    test("Should Determine Whether Three Lengths Make an Isoceles Triangle", ()=>{
+        const isoTriangle = new Triangle(4, 4, 3);
+        expect(isoTriangle.checkType()).toEqual("isoceles triangle")
+    });
+
+    // TEST 5: Determine whether Three Lengths Make An Equilateral Triangle
+    test("Should Determine")
 
 });
 
