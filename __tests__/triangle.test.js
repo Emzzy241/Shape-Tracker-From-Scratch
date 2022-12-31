@@ -1,6 +1,6 @@
 
 // importing the Triangle object because we need it for our Triangle Tests
-import Triangle from "./../src/triangle.js";
+import Triangle from "../src/js/triangle.js";
 
 
 
