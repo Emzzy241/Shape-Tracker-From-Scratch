@@ -29,7 +29,7 @@ _Note: the website is designed to run on a web browser just be sure you have one
 _Note: as at the launch of this Application there are no bugs but this is not the finished product as I will be adding more features later on. If anyone comes in contact with a bug, be sure to hit me up on social media or email me @emzzyoluwole@gmail.com. WATCH OUT FOR VERSION 1.1.0 WHICH IS COMING SOON  _
 
 ## WEBSITE LINK
-https://emzzy241.github.io/Simon-game/
+https://emzzy241.github.io/Shape-Tracker-From-Scratch/
 
 ## License 
 Licensed under the GNU General Public License 
@@ -38,5 +38,5 @@ Licensed under the GNU General Public License
 ## Contact Info
 * _You can contact me via email @ emzzyoluwole@gmail.com_
 * _I'm on Instagram @Emmanuel.9944_
-* _I'm on Twitter @Emzzy241 or @Dynasty
+* _I'm on Twitter @Emzzy241 or Dynasty
 * _Github username: Emzzy241_
